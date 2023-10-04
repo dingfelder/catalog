@@ -1,6 +1,6 @@
 M3U Proxy for Plex DVR and Emby Live TV.
 
-This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/stable/xteve](https://truecharts.org/charts/stable/xteve)
+This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/stable/threadfin](https://truecharts.org/charts/stable/threadfin)
 
 ---
 
