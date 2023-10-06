@@ -5,10 +5,11 @@ dependencies:
     repository: https://library-charts.truecharts.org
     version: 14.0.1
 description: M3U Proxy for Plex DVR and Emby Live TV.
-home: https://truecharts.org/charts/stable/threadfin
+home: https://github.com/dingfelder/charts/stable/threadfin
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/threadfin.png
 keywords:
   - threadfin
+  - xteve
   - iptv
   - plex
   - emby
@@ -19,7 +20,7 @@ maintainers:
     url: https://truecharts.org
 name: threadfin
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/threadfin
+  - https://github.com/dingfelder/charts/tree/master/charts/stable/threadfin
   - https://github.com/threadfin-project/threadfin
   - https://github.com/k8s-at-home/container-images
 version: 10.0.0
