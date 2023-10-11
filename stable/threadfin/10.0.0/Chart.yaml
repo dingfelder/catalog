@@ -5,7 +5,7 @@ dependencies:
     repository: https://library-charts.truecharts.org
     version: 14.0.1
 description: M3U Proxy for Plex DVR and Emby Live TV.
-home: https://github.com/dingfelder/charts/stable/threadfin
+home: https://github.com/dingfelder/charts/tree/master/charts/stable/threadfin
 icon: https://github.com/Threadfin/Threadfin/raw/main/html/img/threadfin.png
 keywords:
   - threadfin
@@ -22,6 +22,7 @@ name: threadfin
 sources:
   - https://github.com/dingfelder/charts/tree/master/charts/stable/threadfin
   - https://github.com/threadfin/threadfin
+  - https://hub.docker.com/r/fyb3roptik/threadfin
   - https://github.com/k8s-at-home/container-images
 version: 10.0.0
 annotations:
