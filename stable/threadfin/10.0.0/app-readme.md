@@ -1,6 +1,9 @@
 M3U Proxy for Plex DVR and Emby Live TV.
 
-This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/stable/threadfin](https://truecharts.org/charts/stable/threadfin)
+This App was based on the xteve implementation by TrueCharts: [https://truecharts.org/charts/stable/xteve/]
+New version maintained by https://github.com/threadfin/threadfin
+
+
 
 ---
 
