@@ -6,7 +6,7 @@ dependencies:
     version: 14.0.1
 description: M3U Proxy for Plex DVR and Emby Live TV.
 home: https://github.com/dingfelder/charts/stable/threadfin
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/threadfin.png
+icon: https://github.com/Threadfin/Threadfin/raw/main/html/img/threadfin.png
 keywords:
   - threadfin
   - xteve
