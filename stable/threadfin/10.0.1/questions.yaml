@@ -16,9 +16,9 @@ groups:
   - name: Security and Permissions
     description: Configure Security Context and Permissions
   - name: Resources and Devices
-    description: "Specify Resources/Devices to be Allocated to Workload"
+    description: Specify Resources/Devices to be Allocated to Workload
   - name: Middlewares
-    description: Traefik Middlewares
+    description: Threadfin Middlewares
   - name: Metrics
     description: Metrics
   - name: Addons
@@ -101,8 +101,34 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
-
-
+                                - variable: env
+                                  group: "App Configuration"
+                                  label: "Image Environment"
+                                  schema:
+                                    additional_attrs: true
+                                    type: dict
+                                    attrs:
+                                      - variable: THREADFIN_HOME
+                                        label: "Threadfin Home"
+                                        description: "Threadfin Home Path"
+                                        schema:
+                                          type: string
+                                          required: true
+                                          default: "/threadfin"
+                                      - variable: THREADFIN_BIN
+                                        label: "Threadfin Home"
+                                        description: "Threadfin Bin Path"
+                                        schema:
+                                          type: string
+                                          required: true
+                                          default: "/threadfin/bin"
+                                      - variable: THREADFIN_CONF
+                                        label: "Threadfin Config"
+                                        description: "Threadfin Config Path"
+                                        schema:
+                                          type: string
+                                          required: true
+                                          default: "/threadfin/config"
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -1950,7 +1976,6 @@ questions:
                   type: string
                   show_if: [["type", "!=", "disabled"]]
                   default: ""
-
               - variable: envList
                 label: VPN Environment Variables
                 schema:
