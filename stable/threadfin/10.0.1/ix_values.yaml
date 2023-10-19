@@ -9,13 +9,26 @@ service:
       main:
         port: 34400
         targetPort: 34400
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            THREADFIN_HOME: "/threadfin"
+            THREADFIN_BIN:  "/threadfin/bin"
+            THREADFIN_CONF: "/threadfin/config"
+
 persistence:
   config:
     enabled: true
     mountPath: "/config"
+
 portal:
   open:
     enabled: true
+
 securityContext:
   container:
     readOnlyRootFilesystem: false
