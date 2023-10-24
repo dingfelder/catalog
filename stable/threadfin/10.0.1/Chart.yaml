@@ -1,9 +1,9 @@
 apiVersion: v2
-appVersion: "1.0.18"
+appVersion: "1.0.19"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 14.0.1
+    version: 14.0.9
 description: M3U Proxy for Plex DVR and Emby Live TV.
 home: https://github.com/dingfelder/charts/tree/master/charts/stable/threadfin
 icon: https://github.com/Threadfin/Threadfin/raw/main/html/img/threadfin.png
