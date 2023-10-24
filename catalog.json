@@ -12,7 +12,7 @@
             "description": "M3U Proxy for Plex DVR and Emby Live TV.",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/dingfelder/charts/stable/threadfin",
+            "home": "https://github.com/dingfelder/charts/tree/master/charts/stable/threadfin",
             "location": "/home/runner/work/catalog/catalog/stable/threadfin",
             "latest_version": "10.0.1",
             "latest_app_version": "1.0.19",
