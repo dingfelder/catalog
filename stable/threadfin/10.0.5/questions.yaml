@@ -114,21 +114,21 @@ questions:
                                         schema:
                                           type: string
                                           required: true
-                                          default: "/threadfin"
+                                          default: "/home/threadfin"
                                       - variable: THREADFIN_BIN
                                         label: "Threadfin Home"
                                         description: "Threadfin Bin Path"
                                         schema:
                                           type: string
                                           required: true
-                                          default: "/threadfin/bin"
+                                          default: "/home/threadfin/bin"
                                       - variable: THREADFIN_CONF
                                         label: "Threadfin Config"
                                         description: "Threadfin Config Path"
                                         schema:
                                           type: string
                                           required: true
-                                          default: "/threadfin/config"
+                                          default: "/home/threadfin/conf"
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
