@@ -37,39 +37,6 @@
                 "https://github.com/k8s-at-home/container-images"
             ],
             "icon_url": "https://github.com/Threadfin/Threadfin/raw/main/html/img/threadfin.png"
-        },
-        "xteve": {
-            "app_readme": "<p>M3U Proxy for Plex DVR and Emby Live TV.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/xteve\">https://truecharts.org/charts/stable/xteve</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-            "categories": [
-                "media"
-            ],
-            "description": "M3U Proxy for Plex DVR and Emby Live TV.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://truecharts.org/charts/stable/xteve",
-            "location": "/home/runner/work/catalog/catalog/stable/xteve",
-            "latest_version": "10.0.0",
-            "latest_app_version": "2.2.0.200",
-            "latest_human_version": "2.2.0.200_10.0.0",
-            "last_update": "2023-10-04 02:07:08",
-            "name": "xteve",
-            "recommended": false,
-            "title": "Xteve",
-            "maintainers": [
-                {
-                    "email": "info@truecharts.org",
-                    "name": "TrueCharts",
-                    "url": "https://truecharts.org"
-                }
-            ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://github.com/truecharts/charts/tree/master/charts/stable/xteve",
-                "https://github.com/xteve-project/xTeVe",
-                "https://github.com/k8s-at-home/container-images"
-            ],
-            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/xteve.png"
         }
     },
     "operators": {
