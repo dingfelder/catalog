@@ -2,8 +2,8 @@ apiVersion: v2
 appVersion: "1.0.20"
 dependencies:
   - name: common
-    repository: https://library-charts.truecharts.org
-    version: 14.0.9
+    repository: https://github.com/truecharts/library-charts
+    version: 14.2.2
 description: M3U Proxy for Plex DVR and Emby Live TV.
 home: https://github.com/dingfelder/charts/tree/master/charts/stable/threadfin
 icon: https://github.com/Threadfin/Threadfin/raw/main/html/img/threadfin.png
@@ -15,16 +15,16 @@ keywords:
   - emby
 kubeVersion: ">=1.16.0-0"
 maintainers:
-  - email: info@truecharts.org
-    name: TrueCharts
-    url: https://truecharts.org
+  - email: dingfelder@gmail.com
+    name: threadfin charts
+    url: https://dingfelder.org
 name: threadfin
 sources:
   - https://github.com/dingfelder/charts/tree/master/charts/stable/threadfin
   - https://github.com/threadfin/threadfin
   - https://hub.docker.com/r/fyb3roptik/threadfin
-  - https://github.com/k8s-at-home/container-images
-version: 10.0.1
+  - https://github.com/bjw-s/helm-charts
+version: 10.0.5
 annotations:
   truecharts.org/catagories: |
     - media
