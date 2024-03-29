@@ -1,0 +1,31 @@
+apiVersion: v2
+appVersion: "1.0.26"
+dependencies:
+  - name: common
+    repository: https://github.com/truecharts/library-charts
+    version: 20.2.10
+description: M3U Proxy for Plex DVR and Emby Live TV.
+home: https://github.com/dingfelder/charts/tree/master/charts/stable/threadfin
+icon: https://github.com/Threadfin/Threadfin/raw/main/html/img/threadfin.png
+keywords:
+  - threadfin
+  - xteve
+  - iptv
+  - plex
+  - emby
+kubeVersion: ">=1.24.0-0"
+maintainers:
+  - email: dingfelder@gmail.com
+    name: threadfin charts
+    url: https://dingfelder.org
+name: threadfin
+sources:
+  - https://github.com/dingfelder/charts/tree/master/charts/stable/threadfin
+  - https://github.com/threadfin/threadfin
+  - https://hub.docker.com/r/fyb3roptik/threadfin
+  - https://github.com/bjw-s/helm-charts
+version: 10.0.7
+annotations:
+  truecharts.org/catagories: |
+    - media
+  truecharts.org/SCALE-support: "true"
